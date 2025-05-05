@@ -5,7 +5,7 @@ servidor oidc keycloak, container no docker com o keycloak, tela de login custom
 
 COMO utilizar:
 
-de um pull na imagem utilizando o docker com o  comando = docker pull eddiexde/desafiofred:latest
+de um pull na imagem utilizando o docker com o  comando = docker pull eddiexde/desafiofred:1
 start o container e coloque o host port 8080
 va para o url http://localhost:8080/ e use o login admin admin para acessar o keycloak master console
 
