@@ -1,0 +1,21 @@
+aplicação web feita para o processo seletivo GT-BAITA
+
+o que foi implementado:
+servidor oidc keycloak, container no docker com o keycloak, tela de login customizada, email automatico para verificacao de conta e esqueceu a senha
+
+COMO utilizar:
+
+de um pull na imagem utilizando o docker com o  comando = docker pull eddiexde/desafiofred:latest
+start o container e coloque o host port 8080
+va para o url http://localhost:8080/ e use o login admin admin
+
+para testar va no url https://www.keycloak.org/app/# em realm coloque DesafioFred_Main e client myclient
+
+o que eu gostaria de ter adicionado(caso eu não tivesse subestimado o tempo que ia levar)
+
+authorization code flow com o keycloak
+roles personalizadas e restricao de accesso baseada em nivel de acesso
+login social
+login qrcode
+
+não foi feita o uso de terraform pois eu não soube como utilizar e implementar ele no container do docker juntamente do keycloak
