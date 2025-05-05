@@ -7,7 +7,7 @@ COMO utilizar:
 
 de um pull na imagem utilizando o docker com o  comando = docker pull eddiexde/desafiofred:latest
 start o container e coloque o host port 8080
-va para o url http://localhost:8080/ e use o login admin admin
+va para o url http://localhost:8080/ e use o login admin admin para acessar o keycloak master console
 
 para testar va no url https://www.keycloak.org/app/# em realm coloque DesafioFred_Main e client myclient
 
